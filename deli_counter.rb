@@ -11,8 +11,6 @@ def line(katz_deli)
     end
     puts the_line + current_line
     end
-  
-  
 end
 
 
