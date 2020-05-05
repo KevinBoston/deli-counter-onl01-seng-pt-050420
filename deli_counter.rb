@@ -7,10 +7,10 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts the_line + "empty."
   else katz_deli.each_with_index do |name, index|
-    current_line << "#{index}. #{name}"
+      current_line << "#{index}. #{name}"
+    end
     puts the_line + current_line
-    
-  end
+    end
   
   
 end
