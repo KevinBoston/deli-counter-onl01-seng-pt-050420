@@ -3,11 +3,11 @@ katz_deli = []
 
 def line(katz_deli)
   current_line = ":"
-  the_line = "The line is currently "
+  the_line = "The line is currently"
   if katz_deli.length == 0
-    puts the_line + "empty."
+    puts the_line + " empty."
   else katz_deli.each_with_index do |name, index|
-      current_line << "#{index}. #{name}"
+      current_line << "#{index+1}. #{name} "
     end
     puts the_line + current_line
     end
