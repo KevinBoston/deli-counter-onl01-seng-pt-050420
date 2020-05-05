@@ -5,7 +5,7 @@ def line(katz_deli)
   the_line = "The line is currently "
   if katz_deli.length == 0
     puts the_line + "empty."
-  else katz_deli.each_with_index |name, index|
+  else katz_deli.each_with_index do |name, index|
     current_line << "#{index}. #{name}"
     puts the_line + current_line
     
